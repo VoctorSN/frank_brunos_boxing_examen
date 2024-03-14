@@ -1,5 +1,6 @@
 package edu.badpals.frank_brunos_boxing_examen;
 
+import edu.badpals.frank_brunos_boxing_examen.round.KnockdownRound;
 import edu.badpals.frank_brunos_boxing_examen.round.RegularRound;
 import org.junit.Test;
 
@@ -9,9 +10,9 @@ public class RegularRoundTest {
 
     @Test // este para el alumnado
     public void boxerRoundScoreToIntTest() {
-        RegularRound round = new RegularRound("10 - 9");
+        KnockdownRound round = new KnockdownRound("10 - 8");
         round.boxerRoundScore();
         assertEquals(10, round.getRedBoxerScore());
-        assertEquals(9, round.getBlueBoxerScore());
+        assertEquals(8, round.getBlueBoxerScore());
     }
 }
