@@ -41,7 +41,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>edu.badpals.frank_brunos_boxing_examen.Main</mainClass>
+                            <mainClass>edu.badpals.frank_brunos_boxing_examen.Brunosbox</mainClass>
                             <classpathPrefix>dependency-jars/</classpathPrefix>
                         </manifest>
                         <manifestEntries>

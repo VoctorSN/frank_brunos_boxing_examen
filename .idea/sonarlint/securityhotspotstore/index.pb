@@ -36,3 +36,11 @@ Nsrc/main/java/edu/badpals/frank_brunos_boxing_examen/round/PointsDeducted.java
 Nsrc/main/java/edu/badpals/frank_brunos_boxing_examen/round/KnockdownRound.java,7\4\74dadd96af0599b9c951489fa833c6bce2101029
 }
 Msrc/main/java/edu/badpals/frank_brunos_boxing_examen/scoreCard/ScoreCard.java,f\9\f936d6ccf9b3672e07d0a7ac1901f2c25c081c3b
+~
+Nsrc/test/java/edu/badpals/frank_brunos_boxing_examen/Round/PointsDeducted.java,c\c\cc30d3d27f2bedae9697394722d1bad1bdfe4301
+‚
+Rsrc/test/java/edu/badpals/frank_brunos_boxing_examen/Round/KnockdownRoundTest.java,d\5\d519cad4297ca2d086c7f103de945a0201104adb
+‚
+Rsrc/test/java/edu/badpals/frank_brunos_boxing_examen/Round/PointsDeductedTest.java,1\0\1035f00d3720a8abb3bfa5b387af0a70d61b737d
+€
+Psrc/test/java/edu/badpals/frank_brunos_boxing_examen/Round/RegularRoundTest.java,1\1\11af6e77d21db263bb7502b87a1fc8eb052d0f38
