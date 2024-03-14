@@ -2,12 +2,14 @@ package edu.badpals.frank_brunos_boxing_examen.round;
 
 public class RegularRound implements Round{
     private String roundScore;
-    private byte NUEVE = 9;
-    private byte DIEZ = 10;
+    private char NUEVE = 9;
+    private char NUEVE_CHAR = '9';
+    private char DIEZ = 10;
     private byte RedBoxerScore = 0;
     private byte BlueBoxerScore = 0;
     public RegularRound(String roundScore) {
         this.roundScore = roundScore;
+        this.boxerRoundScore();
     }
 
     public void setBlueBoxerScore(byte blueBoxerScore) {
@@ -31,14 +33,14 @@ public class RegularRound implements Round{
     @Override
     public void boxerRoundScore() {
         String roundScore = getRoundScore();
-        this.setBlueBoxerScore(
-                (byte) roundScore.charAt(0) == this.NUEVE ?
-                        this.NUEVE
-                        : this.DIEZ);
         this.setRedBoxerScore(
-                (byte) roundScore.charAt(0) == this.NUEVE ?
-                        this.DIEZ
-                        : this.NUEVE);
+                (byte) (roundScore.charAt(0) == this.NUEVE_CHAR ?
+                                        this.NUEVE
+                                        : this.DIEZ));
+        this.setBlueBoxerScore(
+                (byte) (roundScore.charAt(0) == this.NUEVE_CHAR ?
+                                        this.DIEZ
+                                        : this.NUEVE));
 
     }
 

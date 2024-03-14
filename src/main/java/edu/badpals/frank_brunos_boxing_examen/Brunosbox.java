@@ -66,8 +66,8 @@ public class Brunosbox
          * Rocky Balboa (red) vs Apollo Creed (blue)
          */
 
-        whiteScoreCard.setRCorner("Rocky Balboa");
-        whiteScoreCard.setBCorner("Apollo Creed");
+        whiteScoreCard.setBCorner("Rocky Balboa");
+        whiteScoreCard.setRCorner("Apollo Creed");
 
         /**
          * Muestra la tarjeta por consola con
@@ -110,11 +110,9 @@ public class Brunosbox
          * puntos obtenidos por cada pugil en cada round.
          * Se llaman round score.
          */
-/*
+
         whiteScoreCard.loadJudgeScoreCard(
-                // Escribe aquí el código para acceder al primer
-                // elemento del array String[][] data de la línea 13,
-                // la tarjeta blanca
+                data[0]
         );
         System.out.println(whiteScoreCard);
 
@@ -122,7 +120,7 @@ public class Brunosbox
          * Calcula el final score o puntuación total
          * de cada pugil y muestralo en la tarjeta.
          */
-/*
+
         System.out.println("\t FINAL SCORE: " + whiteScoreCard.getRedBoxerFinalScore() +
                 " - " + whiteScoreCard.getBlueBoxerFinalScore() + " FINAL SCORE");
 

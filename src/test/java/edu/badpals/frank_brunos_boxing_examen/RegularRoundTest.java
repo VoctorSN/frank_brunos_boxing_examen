@@ -1,4 +1,9 @@
+package edu.badpals.frank_brunos_boxing_examen;
 
+import edu.badpals.frank_brunos_boxing_examen.round.RegularRound;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class RegularRoundTest {
 
