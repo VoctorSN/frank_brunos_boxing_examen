@@ -18,3 +18,21 @@ S
 Q.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec,2\c\2cabb939da04d3de3a200bf2b575690e1a16316d
 w
 G.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec,8\6\863e0292fd7e9b3e74dafd6cc01f73ba76346482
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+z
+Jsrc/test/java/edu/badpals/frank_brunos_boxing_examen/RegularRoundTest.java,6\1\61cae609145640ad11e8910de5ee218e226f8175
+}
+Msrc/main/java/edu/badpals/frank_brunos_boxing_examen/scoreCard/scoreCard.java,5\7\57079738dac7587244e707287b52263aa188ecd6
+u
+Esrc/main/java/edu/badpals/frank_brunos_boxing_examen/round/Round.java,b\9\b9e2367c2c57294dc5d87d3397255a70fd55db24
+|
+Lsrc/main/java/edu/badpals/frank_brunos_boxing_examen/round/RoundFactory.java,2\e\2ed4d456a2b224816767a23326bc90d6d75c3f69
+|
+Lsrc/main/java/edu/badpals/frank_brunos_boxing_examen/round/RegularRound.java,1\8\18d7072ea0fa7e405c8488a7be81ff04ec124af3
+~
+Nsrc/main/java/edu/badpals/frank_brunos_boxing_examen/round/PointsDeducted.java,8\5\850d46cb27e160d643df8ed0c9964fc8bd9ec72b
+~
+Nsrc/main/java/edu/badpals/frank_brunos_boxing_examen/round/KnockdownRound.java,7\4\74dadd96af0599b9c951489fa833c6bce2101029
+}
+Msrc/main/java/edu/badpals/frank_brunos_boxing_examen/scoreCard/ScoreCard.java,f\9\f936d6ccf9b3672e07d0a7ac1901f2c25c081c3b
