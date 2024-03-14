@@ -266,15 +266,13 @@ public class Brunosbox
          * round de cada pugil y muestralo en la tarjeta.
          * Se llaman score total.
          */
-/*
+
         ScoreCard pinkScoreCard = new ScoreCard("PINK");
         pinkScoreCard.setRCorner("Rocky Balboa");
         pinkScoreCard.setBCorner("Apollo Creed");
 
         pinkScoreCard.loadJudgeScoreCard(
-                // Escribe aquí el código para acceder al tercer
-                // elemento del array String[][] data de la línea 13,
-                // la tarjeta rosa
+                data[2]
         );
         System.out.println(pinkScoreCard);
 
@@ -282,9 +280,9 @@ public class Brunosbox
          * Calcula el final score o puntuación total
          * de cada pugil y muestralo en la tarjeta.
          */
-/*
+
         System.out.println("\t FINAL SCORE: " + pinkScoreCard.getRedBoxerFinalScore() +
                 " - " + pinkScoreCard.getBlueBoxerFinalScore() + " FINAL SCORE");
 
-    }*/
-}}
+    }
+}
