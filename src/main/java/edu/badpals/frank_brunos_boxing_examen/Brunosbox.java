@@ -129,7 +129,7 @@ public class Brunosbox
          * round de cada pugil y muestralo en la tarjeta.
          * Se llaman score total.
          */
-/*
+
         System.out.println(whiteScoreCard);
         System.out.println("\t FINAL SCORE: " + whiteScoreCard.getRedBoxerFinalScore() +
                 " - " + whiteScoreCard.getBlueBoxerFinalScore() + " FINAL SCORE");
@@ -145,7 +145,7 @@ public class Brunosbox
          * En KnockdownRound la puntuacion se almacena
          * como un número entero, no como un String.
          */
-/*
+
         KnockdownRound knockdownRound = new KnockdownRound("10 - 8");
         knockdownRound.boxerRoundScore();
         System.out.println("\n\t knockdown round\t" + knockdownRound.getRedBoxerScore() +
@@ -161,7 +161,7 @@ public class Brunosbox
          * en el casting, las siguientes líneas daran error
          * en tiempo de ejecución.
          */
-/*
+
         RegularRound regular = (RegularRound) RoundFactory.getRound("9 - 10");
         System.out.println("\t regular round: " + regular);
         KnockdownRound knockdown = (KnockdownRound) RoundFactory.getRound("8 - 10");

@@ -47,4 +47,9 @@ public class RegularRound implements Round{
     public String getRoundScore() {
         return roundScore;
     }
+
+    @Override
+    public String toString() {
+        return getRoundScore();
+    }
 }

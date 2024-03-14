@@ -43,12 +43,16 @@ public class ScoreCard {
                 "\tRound\tScore\tRound\tScore\tRound\n" +
                 "\tScore\tTotal           Total\tScore\n";
                 byte numRonda = 0;
+                setRedBoxerFinalScore(0);
+                setBlueBoxerFinalScore(0);
                 for (Round round : getRounds()){
+                    this.addRedBoxerFinalScore(this.getRounds().get(numRonda).getRedBoxerScore());
+                    this.addBlueBoxerFinalScore(this.getRounds().get(numRonda).getBlueBoxerScore());
                     numRonda += 1;
                     stringFinal +=
                             "\t" +
                             round.getRedBoxerScore() +
-                            "\t\t\t\t" + numRonda + "\t\t\t\t" +
+                            "\t\t" + this.getRedBoxerFinalScore() + "\t\t" + numRonda + "\t\t" + this.getBlueBoxerFinalScore() + "\t\t" +
                             round.getBlueBoxerScore() + "\n";
                 }
         return stringFinal;
@@ -67,23 +71,28 @@ public class ScoreCard {
     }
 
     public void loadJudgeScoreCard(String[] judgeScoreCard) {
-        int i = 0;
         for (String roundString : judgeScoreCard){
-            RoundFactory round = new RoundFactory();
-            this.getRounds().add(round.getRound(roundString));
-            this.setRedBoxerFinalScore(this.getRounds().get(i).getRedBoxerScore()); ;
-            this.setBlueBoxerFinalScore(this.getRounds().get(i).getBlueBoxerScore()); ;
-            i+=1;
+            this.getRounds().add(RoundFactory.getRound(roundString));
         }
     }
 
-    public void setRedBoxerFinalScore(int score) {
+    public void addRedBoxerFinalScore(int score) {
         this.RedBoxerFinalScore+=score;
     }
 
-    public void setBlueBoxerFinalScore(int score) {
+    public void addBlueBoxerFinalScore(int score) {
         this.BlueBoxerFinalScore+=score;
     }
+
+    public void setRedBoxerFinalScore(int score) {
+        this.RedBoxerFinalScore=score;
+    }
+
+    public void setBlueBoxerFinalScore(int score) {
+        this.BlueBoxerFinalScore=score;
+    }
+
+
 
     public int getRedBoxerFinalScore() {
         return this.RedBoxerFinalScore;
