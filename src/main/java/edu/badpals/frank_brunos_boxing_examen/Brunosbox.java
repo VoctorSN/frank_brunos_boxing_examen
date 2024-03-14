@@ -75,8 +75,8 @@ public class Brunosbox
          * del ejercicio.
          */
 
-        System.out.println(whiteScoreCard);}
-/*
+        System.out.println(whiteScoreCard);
+
 
         /**
          * Crea una clase llamada RegularRound
@@ -91,7 +91,7 @@ public class Brunosbox
          *
          * Pasa el caso test que propongo.
          */
-/*
+
         RegularRound round = new RegularRound("10 - 9");
         round.boxerRoundScore();
         System.out.println("\n\t Regular round\t" + round.getRedBoxerScore() +
@@ -292,4 +292,4 @@ public class Brunosbox
                 " - " + pinkScoreCard.getBlueBoxerFinalScore() + " FINAL SCORE");
 
     }*/
-}
+}}
