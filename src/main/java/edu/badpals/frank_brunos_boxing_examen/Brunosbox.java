@@ -218,7 +218,7 @@ public class Brunosbox
          * En PointsDeducted la puntuacion se almacena
          * como un número entero, no como un String.
          */
-/*
+
         PointsDeducted deducted = new PointsDeducted("10 - 8 ,1");
         deducted.boxerRoundScore();
         System.out.println("\n\t points deducted round\t" + deducted.getRedBoxerScore() +
@@ -239,7 +239,7 @@ public class Brunosbox
          * en el casting, las siguiente línea dará error
          * en tiempo de ejecución.
          */
-/*
+
         PointsDeducted pointsDeducted = (PointsDeducted) RoundFactory.getRound("1, 8 - 10");
         System.out.println("\n\t factory deducted round: " + pointsDeducted);
 
